@@ -1,0 +1,1020 @@
+
+	<!DOCTYPE html>
+	<html lang="en">
+	  <head>
+	  	  <title> Marias Lunch Menu </title>
+	    <meta charset="utf-8"> 
+
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	  <link href="mariasstyles.css" rel='stylesheet'>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+	</head>
+	<body>
+	<div class="container-fluid">
+	<div id="header">
+		<img src="marialogo2.png" width=100% height="25%">
+		<div id="nav" width="100%">
+		<span>
+			<a href='marias.html'><button class="dropbtn" >HOME</button></a>
+		</span>
+		<span>
+			<a href='about.html'><button class="dropbtn" > ABOUT US</button></a>
+		</span>
+		
+			<span class="dropdown">
+				<button onclick="myFunction()" class="dropbtn" >MENU</button>
+		 		 <div id="myDropdown" class="dropdown-content">
+	 	 			 <a href='lunch.html'>LUNCH MENU</a>
+	 				   <a href='dinner.html'>DINNER MENU</a>
+					   <a href='dinner.html'>DINNER MENU</a>
+	 	 		</div>
+			</span>
+		 
+		 <span>
+		<a href='location.html'><button class="dropbtn" >CONTACT</button></a>
+		</span>
+		</div>
+	</div>
+<div id="content">
+
+	<br>
+	<br>
+	<br>
+	<center><b><div  width=100%><font size="10">MARIA'S LUNCH MENU</div></font></b></center>
+	<br>
+	<div class="rTable">
+	<div class="rTableBody">
+	<div class="rTableRow">
+	<div   class="iTableCell buttons" onclick=toggleApp('appetizers_list','navarrow')>APPETIZERS <span id='navarrow'> &#9662;</span>
+				<span class='iTableCell' id='appetizers_list' >
+					<span class='rTableCell'>
+					<div class="rTableRow">
+						<div class="rTableCell">	SOUP DU JOUR </div>
+						<div class="rTableCell">$3.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">GARLIC BREAD</div>
+						<div class="rTableCell">$2.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">GARLIC BREAD with cheese</div>
+						<div class="rTableCell">$3.75</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CLAM CHOWDER </div>
+						<div class="rTableCell">$4.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">BAKED POTATO SKINS</div>
+						<div class="rTableCell">$7.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">MOZZARELLA STICKS</div>
+						<div class="rTableCell">$7.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">BAKED STUFFED MUSHROOMS</div>
+						<div class="rTableCell">$6.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">TOASTED RAVIOLI</div>
+						<div class="rTableCell">$7.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CALAMARI & MUSSELS SCAMPI</div>
+						<div class="rTableCell">$9.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">BRUSCHETTA</div>
+						<div class="rTableCell">$4.95</div>
+					</div>
+				</span>
+				<span class='rTableCell'>
+					<div class="rTableRow">
+						<div class="rTableCell">SAUTEED MUSHROOMS</div>
+						<div class="rTableCell">$5.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">FRIED CALAMARI</div>
+						<div class="rTableCell">$8.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">BAKED CLAMS a la MARIA</div>
+						<div class="rTableCell">$7.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">FETTUCCINI ALFREDO</div>
+						<div class="rTableCell">$7.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">ARTICHOKES, PROSCIUTTO, PIMENTOS</div>
+						<div class="rTableCell">$8.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">SHRIMP a la GREQUE</div>
+						<div class="rTableCell">$9.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">SHRIMP SCAMPI</div>
+						<div class="rTableCell">$9.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">MUSSELS CHABLIS <p>OR MARANARA</p></div>
+						<div class="rTableCell">$8.95</div>
+					</div>
+
+				</span>
+	</div>
+
+	<div class="iTableCell buttons" onclick=toggleApp('salads_list','navarrow2')>	SALADS <span id='navarrow2'> &#9662;</span>
+				<span class='rTableCell'  id='salads_list'>
+
+					<div class="rTableRow">
+						<div class="rTableCell">	GREEK SALAD </div>
+						<div class="rTableCell">Regular 7.95</div>
+						<div class="rTableCell">Large 8.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">ANTIPASTO</div>
+						<div class="rTableCell">Regular 9.95</div>
+						<div class="rTableCell">Large 11.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">ITALIAN TOSSED</div>
+						<div class="rTableCell">Regular 6.95</div>
+						<div class="rTableCell">Large 7.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">DINNER SALAD</div>
+						<div class="rTableCell">Regular 3.25</div>
+
+					</div>
+				</span>
+	</div>
+</div>
+
+	<div class="rTableRow">
+	<div class="iTableCell buttons" onclick=toggleApp('veal_list','navarrow3')>	VEAL <span id='navarrow3'> &#9662;</span>
+		<span class='rTableCell'  id='veal_list'>
+
+					<div class="rTableRow">
+						<div class="rTableCell">VEAL CUTLET
+							<div>Veal Tops, breaded and topped with Meat Sauce</div>
+						</div>
+						<div class="rTableCell">$11.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">VEAL PARMIGIANA
+							<div>Veal Tops, breaded and topped with Meat Sauce,
+								<p>served en casserole</p></div>
+						</div>
+						<div class="rTableCell">12.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">VEAL & EGGPLANT
+							<div>Breaded Veal Tops and Eggplant topped with cheese & Meat
+								<p>Sauce, serveden casserole</p></div>
+							</div>
+						<div class="rTableCell">12.95</div>
+					</div>
+
+					<div class="rTableRow">
+						<div class="rTableCell">VEAL CACCIATORE
+						<div>Tenter Veal simmered in White Sauce, with Peppers, <p>Onions, Mushrooms & Marinara Sauce</p></div></div>
+						<div class="rTableCell">12.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">VEAL MARSALA
+						<div>Veal sauteed in butter, with Mushrooms & Marsala Wine.</div>
+						</div>
+						<div class="rTableCell">12.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">VEAL STEFADO
+						<div>Tender chunks of Veal in Tomato Sauce, Onions, sauteed <p> Mushrooms & Broccoli </p> </div></div>
+						<div class="rTableCell">12.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">VEAL SALTIMBOCCA
+						<div>Breaded Veal stuffed with Prosciutto, Provolone in <p> Marsala Sauce</p></div>	</div>
+						<div class="rTableCell">13.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">VEAL PICCATA
+						<div>Tender Veal sauteed in Lemon butter, Capers &  Mushrooms Sauce</div>
+						</div>
+						<div class="rTableCell">12.95</div>
+					</div>
+					<div><p> Above Entrees are served with Pasta</p></div>
+					<div class="rTableRow">
+						<div class="rTableCell">SIRLOIN STEAK TIPS</div>
+
+						<div class="rTableCell">13.95</div>
+					</div>
+
+				</span>
+
+	</div>
+
+	<div class="iTableCell buttons"  onclick=toggleApp('chicken_list','navarrow4')>	CHICKEN <span id='navarrow4'> &#9662;</span>
+		<span class='rTableCell'  id='chicken_list'>
+
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN CUTLET
+							<div>Chicken Breast, breaded and topped with Meat Sauce</div>
+						</div>
+						<div class="rTableCell">$10.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN PICCATA
+							<div>Chicken Breast, Medallions sauted with Mushrooms, Capers, Lemon </div>
+						</div>
+						<div class="rTableCell">$11.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN SALTOMBOCCA
+							<div>Breaded Chicken stuffed with Prosciutto, Provolone in Marsala</div>
+						</div>
+						<div class="rTableCell">$12.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN CACCIATORE
+							<div>Chicken simmered in Wine Sauce with Peppers, Onions, Mushrooms & Marinara Sauce</div>
+						</div>
+						<div class="rTableCell">$11.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN PARMIGIANA
+							<div>Chicken topped with Cheese & Meat Sauce, Served en casserole</div>
+						</div>
+						<div class="rTableCell">$11.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN VERDICCHIO
+							<div>Breast of Chicken, saute Mushromms, Broccoli & WHite Wine Sauce</div>
+						</div>
+						<div class="rTableCell">$11.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN BIANCO
+							<div>Breast of Chicken prepared with Mushrooms, Peppers & Onions in White Wine Sauce</div>
+						</div>
+						<div class="rTableCell">$11.95</div>
+
+					</div>
+					<div> <p>Above Entrees are served with Pasta </p></div>
+						<div class="rTableRow">
+						<div class="rTableCell">CHICKEN, BROCCOLI & ZITTI</div>
+
+						<div class="rTableCell">$12.50</div>
+
+					</div>
+
+		</span>
+	</div>
+	</div>
+
+	<div class="rTableRow">
+	<div class="iTableCell buttons"  onclick=toggleApp('pasta_list','navarrow5')>	PASTA <span id='navarrow5'> &#9662;</span>
+		<span class='rTableCell'  id='pasta_list'>
+
+					<div class="rTableRow">
+						<div class="rTableCell">MARIA'S LASANGA</div>
+						<div class="rTableCell">$10.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">BAKED STUFFED SHELLS</div>
+
+						<div class="rTableCell">$10.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">MARIA's MANICOTTI</div>
+
+						<div class="rTableCell">$10.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell" > RAVIOLI a la PARMIGIANA</div>
+						<div class="rTableCell">$10.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">ZITTI A LA PARMIGIANA
+						</div>
+						<div class="rTableCell">$9.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">FETTUCCINI ALFREDO
+							</div>
+						<div class="rTableCell">$9.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div  class="rTableCell"> RAVIOLI</div>
+						<div class="rTableCell">$9.95</div>
+
+					</div>
+
+						<div class="rTableRow">
+						<div class="rTableCell">GNOCCHI</div>
+
+						<div class="rTableCell">$9.95</div>
+
+					</div>
+
+
+						<div class="rTableRow">
+						<div class="rTableCell">SPAGHETTI OR ZITI
+
+								<div>	with Meatballs or Sausages </div>
+								<div>	with Meat or Mariana Sauce </div>
+								<div>	with Mushroom Sauce </div>
+								<div>	with Red or White Clam Sauce </div>
+							</div>
+							<div class="rTableCell">
+								<div>&nbsp; </div>
+								<div>$10.95</div>
+								<div>$9.25</div>
+								<div>$9.50</div>
+									<div>$10.95</div>
+						 </div>
+
+
+					</div>
+
+		</span>
+	</div>
+
+
+	<div class="iTableCell buttons"  onclick=toggleApp('seafood_list','navarrow6')>	FRESH SEAFOOD  <span id='navarrow6'> &#9662;</span>
+		<span class='rTableCell'  id='seafood_list'>
+				<div class="rTableRow">
+						<div class="rTableCell">BROILED FAMOUS SCROD
+							</div>
+						<div class="rTableCell">$12.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div  class="rTableCell"> FRIED FILET OF HADDOCK</div>
+						<div class="rTableCell">$11.95</div>
+
+					</div>
+
+						<div class="rTableRow">
+						<div class="rTableCell">FRIED IPSWICH CLAMS</div>
+
+						<div class="rTableCell">$13.95</div>
+					</div>
+						<div class="rTableRow">
+						<div class="rTableCell">FRIED SCALLOPS
+							</div>
+						<div class="rTableCell">$14.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div  class="rTableCell"> GOLDEN FRIED SHRIMP</div>
+						<div class="rTableCell">$12.95</div>
+
+					</div>
+
+						<div class="rTableRow">
+						<div class="rTableCell">FRIED CALAMARI</div>
+
+						<div class="rTableCell">$10.95</div>
+
+					</div>
+						<div> <p> Above Entrees are served with Potato</p></div>
+
+					<div class="rTableRow">
+						<div class="rTableCell">SEAFOOD NANTUCKET
+							<div>Shrimp, Scallops and haddock topped with melted Cheese & <p> Seafood Stuffing, served with Potato</p></div>
+						</div>
+						<div class="rTableCell">$13.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">AGEAN SHRIMP
+							<div>Large Shrimp stuffed with Feta Cheese and baked in a light <p> Red Sauce, served with Rice Pilaf</p></div>
+						</div>
+						<div class="rTableCell">$13.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">SHRIMP a la GREQUE
+							<div>Shrimp sauteed in Wine, Butter & Garlic, served over Pasta</div>
+						</div>
+						<div class="rTableCell">$13.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">BAKED STUFFED SHRIMP
+							<div>Large Shrimp stuffed with Maria's Stuffing,served with Potato</div>
+						</div>
+						<div class="rTableCell">$13.25</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">SHRIMP SCAMPI
+							<div>Sauteed Shrimp in Sherry Wine, Butter & Garlic, served over Pasta</div>
+						</div>
+						<div class="rTableCell">$13.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">FISHERMAN'S PLATTER
+							<div>Fried Shrimp, Scallops, Haddock & Clams, served eith French Fries & Onion Rings</div>
+						</div>
+						<div class="rTableCell">$17.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">SHRIMP CACCIATORE
+							<div>Shrimp, Mushrooms, Peppers & Onions in Tomato-Wine Sauce, served with Pasta</div>
+						</div>
+						<div class="rTableCell">$13.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">BROILED SEAFOOD PLATTER
+							<div>Shrimp, Haddock, Scallops and a Stuffed Clam topped with <p>Seafood Stuffing, served with potato</p></div>
+						</div>
+						<div class="rTableCell">$13.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">SHRIMP PARMIGIANA
+							<div>Large Shrimp, breaded and topped with Cheese & Mariana Sauce, served with Pasta.</div>
+						</div>
+						<div class="rTableCell">$13.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">SEA FOOD a la GREQUE
+							<div>Shrimp, Scallops and Haddock in Alfredo Sauce, with vegetables, served over Fettuccini Noodles</div>
+						</div>
+						<div class="rTableCell">$13.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">SEAFOOD FETTUCCINI
+							<div>Shrimp, Scallops and Haddock in Alfredo Sauce, with vegetables, served over Fettuccini Noodles</div>
+						</div>
+						<div class="rTableCell">$13.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">SEAFOOD VERDICCHIO
+							<div>Shrimp, Scallops, Haddock, Mushrooms & Broccoli, sauted <p>in White Wine Sauce, Butter & Garlic, served over Pasta.</p></div>
+						</div>
+						<div class="rTableCell">$13.95</div>
+
+					</div>
+
+					</div>
+
+		</span>
+	</div>
+	</div>
+
+	<div class="rTableRow">
+   
+   <div class="iTableCell buttons" onclick=toggleApp('italy_list','navarrow7')>	ITALIAN SPECIALITIES <span id='navarrow7'> &#9662;</span>
+   		<span class='rTableCell'  id='italy_list'>
+				<div class="rTableRow">
+						<div class="rTableCell">VEGETABLE SCAMPI
+							</div>
+						<div class="rTableCell">$9.25</div>
+
+					</div>
+					<div class="rTableRow">
+						<div  class="rTableCell"> EGGPLANT PARMIGIANA<br><i>Fresh Eggplant breaded and topped with Cheese & Meat  Sauce served en casserole</div>
+						<div class="rTableCell">$10.95</div>
+
+					</div>
+
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN & EGGPLANT<br> Breast of Chicken & Eggplant, topped with Cheese & Meat Sauce.</div>
+
+						<div class="rTableCell">$11.95</div>
+					</div>
+						<div class="rTableRow">
+						<div class="rTableCell">EGGPLANT & SUASAGE
+
+						<br>Fresh Eggplant and Sausages, topped with Cheese & Meat Sauce, served en casserole.</div>
+						<div class="rTableCell">$10.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div  class="rTableCell"> SAUSAGE CACCIATORE
+						<br> Sweet Sausages simmered in Wine Sauce with Peppers, Onions, Mushrooms and Marinara Sauce.</div>
+						<div class="rTableCell">$11.95</div>
+
+					</div>
+
+						<div> <p> <center>Above Entrees are served with Pasta</p></center></div>
+
+					<div class="rTableRow">
+						<div class="rTableCell">VEAL PIZZIOLA
+							<br>Tender chunks of Veal, Onions, Peppers, Mushrooms and <br> Noodles in Red Sauce with Melted Cheese</div>
+
+						<div class="rTableCell">$12.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">VEAL & MUSHROOM
+							<br>Tender Veal chunks and Mushrooms simmered in Red served over pasta
+						</div>
+						<div class="rTableCell">$12.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN & RAVIOLI PARMIGIANA
+							<br>Chicken and Ravioli topped with CHeese & Meat Sauce, served en casserole
+						</div>
+						<div class="rTableCell">$13.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN & GNOCCHI PARMIGIANA
+							<br>Chicken and Gnocchi topped with Cheese & Meat Sauce, served en casserole
+							
+						</div>
+						<div class="rTableCell">$11.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN PIZZIOLA
+							<div>Chicken Tenders, Mushrooms, Onions, Peppers and Noodles in Re Sauce, topped with Cheese</div>
+						</div>
+						<div class="rTableCell">$12.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN & MUSHROOM
+							<br>Sauteed Chicken Tenders and Mushrooms in Red Sauce, served over Pasta<
+						</div>
+						<div class="rTableCell">$11.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN FETTUCCINI
+							<br>Sauteed Chicken Tenders and Vegetables in light Cheese Sauce, served over Fettuccini Noodles</div>
+							<div class="rTableCell">$12.50</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN MYTHOS
+							Chicken Tenderloin sauteed with Tomatoes, Onion, Feta in White Wine Sauce served over Linguini
+						</div>
+						<div class="rTableCell">$11.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">MARIA'S SAMPLER
+							<br> Veal Chunks, Meatball, Stuffed SHell and Eggplant en <br> vasserole topped with Cheese & Meat Sauce
+							</div>
+						<div class="rTableCell">$12.95</div>
+
+					</div>
+					
+
+				
+
+		</span>
+	</div>
+
+
+   <div class="iTableCell buttons"  onclick=toggleApp('kids_list','navarrow8')>	CHILDREN'S MENU <span id='navarrow8'> &#9662;</span>
+		<span class='rTableCell'  id='kids_list'>
+				<span>
+					<div class="rTableRow">
+						<div class="rTableCell">HOT DOG with Fries</div>
+						<div class="rTableCell">$4.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">MAC & CHEESE</div>
+
+						<div class="rTableCell">$4.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">HAMBURGER</div>
+
+						<div class="rTableCell">$4.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CHEESE RAVIOLI</div>
+
+						<div class="rTableCell">$4.95</div>
+
+					</div>
+				</span>
+				<span>
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN FINGERS</div>
+						<div class="rTableCell">$5.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">PASTA WITH SAUCE</div>
+
+						<div class="rTableCell">$3.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">KIDS SODA OR MILK</div>
+
+						<div class="rTableCell">$1.00</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">HOODSIE</div>
+
+						<div class="rTableCell">$1.00</div>
+
+					</div>
+
+				</span>
+		</span>
+	 </div>
+	</div>
+
+	</div>
+	<div class="rTableRow">
+	<div class="iTableCell buttons" onclick=toggleApp('pizza_list','navarrow9')>	PIZZA <span id='navarrow9'> &#9662;</span></button>
+		<span class='rTableCell'  id='pizza_list'>
+				<span>
+					<div class="rTableRow">
+						<div class="rTableCell">CHEESE</div>
+						<div class="rTableCell">$9.25</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">ONION</div>
+
+						<div class="rTableCell">$9.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">PEPPER</div>
+
+						<div class="rTableCell">$9.95</div>
+
+					</div>
+						<div class="rTableRow">
+						<div class="rTableCell">PEPPER & ONION</div>
+
+						<div class="rTableCell">$9.95</div>
+
+					</div>
+						<div class="rTableRow">
+						<div class="rTableCell">ANCHOVIE</div>
+
+						<div class="rTableCell">$9.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">HAMBURGER</div>
+
+						<div class="rTableCell">$9.95</div>
+
+					</div>
+						<div class="rTableRow">
+						<div class="rTableCell">PEPPERONI</div>
+
+						<div class="rTableCell">$9.95</div>
+
+					</div>
+						<div class="rTableRow">
+						<div class="rTableCell">MEATBALL</div>
+
+						<div class="rTableCell">$9.95</div>
+
+					</div>
+						<div class="rTableRow">
+						<div class="rTableCell">SAUSAGE</div>
+
+						<div class="rTableCell">$9.95</div>
+
+					</div>
+				</span>
+				<span>
+					<div class="rTableRow">
+						<div class="rTableCell">MUSHROOM</div>
+						<div class="rTableCell">$9.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">HAM</div>
+
+						<div class="rTableCell">$9.95</div>
+
+					</div>
+						<div class="rTableRow">
+						<div class="rTableCell">SALAMI</div>
+
+						<div class="rTableCell">$9.95</div>
+
+					</div>
+						<div class="rTableRow">
+						<div class="rTableCell">GREEK Top with feta, tomato B.O., no sauce</div>
+
+						<div class="rTableCell">$10.95</div>
+
+					</div>
+						<div class="rTableRow">
+						<div class="rTableCell">2-WAY COMBINATION</div>
+
+						<div class="rTableCell">$10.95</div>
+
+					</div>
+						<div class="rTableRow">
+						<div class="rTableCell">3-WAY COMBINATION</div>
+
+						<div class="rTableCell">$11.95</div>
+
+					</div>
+						<div class="rTableRow">
+						<div class="rTableCell">4-WAY COMBINATION</div>
+
+						<div class="rTableCell">12.95</div>
+
+					</div>
+						<div class="rTableRow">
+						<div class="rTableCell">MARIA'S SPECIAL</div>
+
+						<div class="rTableCell">$13.95</div>
+
+					</div>
+						<div class="rTableRow">
+						<div class="rTableCell">EXTRA CHEESE</div>
+
+						<div class="rTableCell">$1.75</div>
+
+					</div>
+
+				</span>
+		</span>
+
+	</div>
+	<div class="iTableCell buttons"  onclick=toggleApp('hot_list','navarrow10')>	HOT GRINDERS <span id='navarrow10'> &#9662;</span>
+		<span class='rTableCell'  id='hot_list'>
+				<span>
+					<div class="rTableRow">
+						<div class="rTableCell">EGG PLANT</div>
+						<div class="rTableCell">$7.50</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">SAUSAGE</div>
+
+						<div class="rTableCell">$7.5</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">MEATBALL</div>
+
+						<div class="rTableCell">$7.95</div>
+
+					</div>
+
+				</span>
+				<span>
+					<div class="rTableRow">
+						<div class="rTableCell">CHICKEN CUTLET</div>
+						<div class="rTableCell">$8.25</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">VEAL CUTLET</div>
+
+						<div class="rTableCell">$8.95</div>
+
+					</div>
+
+				</span>
+		</span>
+
+	</div>
+	</div>
+	<div class="rTableRow">
+	<div class="iTableCell buttons" onclick=toggleApp('desert_list','navarrow11')>	DESSERTS <span id='navarrow11'> &#9662;</span>
+			<span class='rTableCell'  id='desert_list'>
+				<span>
+					<div class="rTableRow">
+						<div class="rTableCell">OLD-FASHIONED<br>STRAWBERRY SHORTCAKE</div>
+						<div class="rTableCell">$4.95</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">ICECREAM</div>
+
+						<div class="rTableCell">$3.50</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CHOCOLATE SUNDAE</div>
+
+						<div class="rTableCell">$4.25</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">STRAWBERRY SUNDAE</div>
+
+						<div class="rTableCell">$4.25</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">SPUMONI with Claret Sauce</div>
+
+						<div class="rTableCell">$4.95</div>
+
+					</div>
+				</span>
+				<span>
+					<div class="rTableRow">
+						<div class="rTableCell">NEWYORK CHEESECAKR <br> with Strawberries</div>
+						<div class="rTableCell">$5.50</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CHOCOLATE CAKE</div>
+
+						<div class="rTableCell">$4.95</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">HOMEMADE STYLE CANNOLI</div>
+
+						<div class="rTableCell">$5.25</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">BAKLAVA</div>
+
+						<div class="rTableCell">$4.25</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">TIRAMISU</div>
+
+						<div class="rTableCell">$5.25</div>
+
+					</div>
+
+
+				</span>
+
+			</span>
+	</div>
+	<div class="iTableCell buttons" onclick=toggleApp('bev_list','navarrow12')>	BEVERAGES <span id='navarrow12'> &#9662;</span>
+		<span class='rTableCell'  id='bev_list'>
+				<span>
+					<div class="rTableRow">
+						<div class="rTableCell">COFFEE</div>
+						<div class="rTableCell">$2.00</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">TEA</div>
+
+						<div class="rTableCell">$2.50</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">MILK</div>
+
+						<div class="rTableCell">$2.50</div>
+
+					</div>
+
+				</span>
+				<span>
+					<div class="rTableRow">
+						<div class="rTableCell">TONIC Free Refill</div>
+						<div class="rTableCell">$2.75</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">CRANBERRY JUICE</div>
+
+						<div class="rTableCell">$2.75</div>
+
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">ORANGE JUICE</div>
+
+						<div class="rTableCell">$2.75</div>
+
+					</div>
+
+
+				</span>
+		</span>
+	</div>
+			</div>
+<div class="rTableRow">
+
+	<div class="iTableCell buttons" onclick=toggleApp('other_list','navarrow13')>	OTHER SPECIALS <span id='navarrow13'> &#9662;</span>
+		<span class='rTableCell'  id='other_list'>
+				<span>
+					<div class="rTableRow" >
+						<div class="pTableCell"><center>MARIA'S DINNER FOR TWO
+							<i><br>Chiken Cutlets, Sausage, Manicotti,
+							<br>Eggplant Parmigian, Ziti,
+							<br>Soup and Garlic Bread.</i>
+							<br>$26.95	</center>
+					</div>
+
+						<div class="pTableCell"><center>SHRIMP & CHICKEN MYTHOS
+							<i><br>Shrimp & Chicken Tenderloin sauteed with
+							<br>Tomatoes, Onions, Scallions, Feta in White
+							<br>Wine Sauce served over Linguini</i>
+							<br>FOR ONE -$13.25<br> FOR TWO-$24.95	</center>
+					</div>
+					</div>
+				</span>
+				<span>
+
+					<div class="rTableRow" >
+						<div class="pTableCell"><center>VEAL DINNER FOR TWO
+							<i><br>Veal Cutlets, Meatballs, Stuffed Shells,
+							<br>Eggplant Parmigian, Ziti,
+							<br>Soup and Garlic Bread.</i>
+							<br>$27.95	</center>
+					</div>
+
+						<div class="pTableCell"><center>SCALLOP & CHIKEN MYTHOS
+							<i><br>Scallops & Chicken Tenderloin sauteed
+							<br>with Tomatoes, Onions, Scallions, Feta in
+							<br>White Wine Sauce served over Linguini</i>
+							<br>FOR ONE -$13.25<br> FOR TWO-$26.95		</center>
+					</div>
+					</div>
+
+				</span>
+		</span>
+	</div>
+	<span class="rTableCell">
+	<center>
+	CONSUMING RAW OR UNDERCOOKED<br>POULTRY, SEAFOOD OR SHELLFISH MAY INCREASE <br> YOUR RISK OF ILLNESS, ESPECIALLY IF YOU HAVE
+	<br> CERTAIN MEDICAL CONSITIONS, BEFORE PLACING  <br>ORDER, PLEASE LET YOUR SERVER KNOW IF A PERSON  <br>IN YOUR PARTY HAS A FOOD ALLERGY
+	</center>
+	</span>
+
+</div>
+
+
+
+
+</div>
+</div>
+
+
+
+<script language="JavaScript">
+	function toggleApp(x,y){
+
+		var panel = document.getElementById(x);
+		var navarrow=document.getElementById(y);
+
+		if(panel.style.display==""){
+			navarrow.innerHTML="&#9652";
+			panel.style.display="block";
+
+		}else {
+			panel.style.display="";
+			navarrow.innerHTML="&#9662";
+
+		}
+	}
+	function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<div>
+	<div id='footer'>
+	<p>&copy; Copyright 2018 RG</p>
+	</div>
+</body>
+</div>
